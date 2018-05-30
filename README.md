@@ -7,4 +7,6 @@
 ## Reminders
 
 - [ ] Update `repository` and `name` in `package.json`
+- [ ] Enable greenkeeper
+- [ ] CircleCI
 - [ ] Update `README.md`
