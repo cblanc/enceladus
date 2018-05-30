@@ -17,6 +17,9 @@
     "include": [
       "lib/**/*.ts"
     ],
+    "exclude": [
+      "dist/*"
+    ],
     "extension": [
       ".ts"
     ],
