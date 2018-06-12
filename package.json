@@ -11,9 +11,9 @@
   "scripts": {
     "test": "npm run lint && NODE_ENV=test node_modules/.bin/nyc node_modules/.bin/mocha --opts mocha.opts",
     "lint": "node_modules/.bin/tslint -c tslint.json -p tsconfig.json lib/**/*.ts",
-    "build": "npm run lint && node_modules/.bin/tsc",
+    "build": "node_modules/.bin/parcel build ./html/index.html --public-url '/'",
     "coverage": "node_modules/.bin/nyc report --reporter=text-lcov | node_modules/.bin/coveralls || true",
-    "prepare": "npm run build"
+    "start": "node_modules/.bin/parcel ./html/index.html"
   },
   "nyc": {
     "include": [
@@ -54,6 +54,13 @@
     "typings": "~2.1.1"
   },
   "dependencies": {
+    "@types/react": "^16.3.17",
+    "@types/react-dom": "^16.0.6",
+    "parcel-bundler": "^1.8.1",
+    "parcel-plugin-typescript": "^0.7.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "tslint-react": "^3.6.0",
     "typescript": "~2.9.1"
   }
 }
