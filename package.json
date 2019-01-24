@@ -14,7 +14,7 @@
     "build": "npm run lint && node_modules/.bin/tsc",
     "coverage": "node_modules/.bin/nyc report --reporter=text-lcov | node_modules/.bin/coveralls || true",
     "prepare": "npm run build",
-    "update!": "node_modules/.bin/ncu -u"
+    "update!": "node_modules/.bin/ncu -u && npm install && npm run test"
   },
   "nyc": {
     "include": [
