@@ -33,7 +33,7 @@
       "check-function-in-method"
     ],
     "ordered-imports": [
-      true
+      false
     ],
     "interface-name": [
       false
