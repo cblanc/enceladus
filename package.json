@@ -16,6 +16,9 @@
     "prepare": "npm run build",
     "update!": "node_modules/.bin/ncu -u && npm install && npm run test"
   },
+  "prettier": {
+    "trailingComma": "es5"
+  },
   "nyc": {
     "include": [
       "lib/**/*.ts"
@@ -50,6 +53,7 @@
     "mocha": "~5.2.0",
     "npm-check-updates": "~2.15.0",
     "nyc": "~13.1.0",
+    "prettier": "~1.16.3",
     "source-map-support": "~0.5.9",
     "ts-node": "~8.0.1",
     "tslint": "~5.12.1",
