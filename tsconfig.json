@@ -1,5 +1,8 @@
 {
-  "extends": "@cablanchard/tsconfig.json/tsconfig.json",
+  "extends": "@cablanchard/tsconfig",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
   "include": [
     "lib/**/*"
   ]
