@@ -43,7 +43,11 @@
   "engines": {
     "node": ">=8.0"
   },
-  "author": "Christopher Blanchard",
+  "author": {
+    "name": "Christopher Blanchard",
+    "email": "cablanchard@gmail.com",
+    "url": "chrxv.com"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "~4.1.7",
