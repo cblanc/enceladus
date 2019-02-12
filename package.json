@@ -50,6 +50,7 @@
     "url": "chrxv.com"
   },
   "license": "MIT",
+  "files": ["dist"],
   "devDependencies": {
     "@cablanchard/tsconfig": "~0.0.1",
     "@types/chai": "~4.1.7",
