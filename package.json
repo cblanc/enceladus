@@ -3,7 +3,10 @@
   "description": "enceladus",
   "repository": {
     "type": "git",
-    "url": "git@github.com:cblanc/enceladus"
+    "url": "https://github.com/cblanc/enceladus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cblanc/enceladus/issues/new"
   },
   "version": "0.0.1",
   "main": "dist/index.js",
