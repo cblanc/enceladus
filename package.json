@@ -17,8 +17,7 @@
     "build": "npm run lint && node_modules/.bin/tsc",
     "coverage": "node_modules/.bin/nyc report --reporter=text-lcov | node_modules/.bin/coveralls || true",
     "prepublishOnly": "npm test && npm run build",
-    "watch": "node_modules/.bin/mocha --watch-extensions ts --watch",
-    "update!": "node_modules/.bin/ncu -u && npm install && npm run test"
+    "watch": "node_modules/.bin/mocha --watch-extensions ts --watch"
   },
   "prettier": {
     "trailingComma": "es5"
@@ -75,7 +74,6 @@
     "chai": "~4.2.0",
     "coveralls": "~3.0.2",
     "mocha": "~6.1.1",
-    "npm-check-updates": "~3.1.0",
     "nyc": "~14.1.0",
     "prettier": "~1.17.0",
     "source-map-support": "~0.5.9",
