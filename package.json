@@ -69,7 +69,7 @@
   "devDependencies": {
     "@cablanchard/tsconfig": "~1.0.0",
     "@cablanchard/tslint": "0.0.1",
-    "@types/chai": "~4.1.7",
+    "@types/chai": "~4.2.0",
     "@types/mocha": "~5.2.5",
     "chai": "~4.2.0",
     "coveralls": "~3.0.2",
