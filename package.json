@@ -16,6 +16,7 @@
     "lint": "eslint lib/**/*.ts",
     "build": "npm run lint && tsc",
     "coverage": "nyc report --reporter=text-lcov | coveralls || true",
+    "release": "semantic-release --no-ci",
     "prepublishOnly": "npm test && npm run build",
     "watch": "mocha --watch-extensions ts --watch"
   },
