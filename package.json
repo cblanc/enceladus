@@ -21,6 +21,7 @@
     "watch": "mocha --watch-extensions ts --watch"
   },
   "prettier": {
+    "editorconfig": true,
     "trailingComma": "es5"
   },
   "mocha": {
