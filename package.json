@@ -15,7 +15,7 @@
     "test": "npm run lint && NODE_ENV=test nyc mocha",
     "lint": "eslint lib/**/*.ts",
     "build": "npm run lint && tsc",
-    "coverage": "nyc report --reporter=text-lcov | coveralls || true",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "release": "semantic-release --no-ci",
     "prepublishOnly": "npm test && npm run build",
     "watch": "mocha --watch-extensions ts --watch"
@@ -81,7 +81,7 @@
     "@typescript-eslint/eslint-plugin-tslint": "~2.3.0",
     "@typescript-eslint/parser": "~2.3.0",
     "chai": "~4.2.0",
-    "coveralls": "~3.0.2",
+    "codecov": "~3.6.1",
     "eslint": "~6.5.0",
     "mocha": "~6.2.0",
     "nyc": "~14.1.0",
