@@ -2,9 +2,9 @@
 #
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
 #
-version: 2
+version: 2.1
 jobs:
-  build:
+  test:
     docker:
       - image: circleci/node:8
     working_directory: ~/repo
@@ -25,10 +25,10 @@ workflows:
   version: 2
   push:
     jobs:
-      - build
+      - test
   scheduled:
     jobs:
-      - build
+      - test
     triggers:
       - schedule:
           cron: "8 8 * * 1-5"
