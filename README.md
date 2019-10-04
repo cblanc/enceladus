@@ -1,4 +1,5 @@
-[![CircleCI](https://circleci.com/gh/cblanc/enceladus.svg?style=svg)](https://circleci.com/gh/cblanc/enceladus) [![Coverage Status](https://coveralls.io/repos/github/cblanc/enceladus/badge.svg?branch=master)](https://coveralls.io/github/cblanc/enceladus?branch=master)
+[![CircleCI](https://circleci.com/gh/cblanc/enceladus.svg?style=svg)](https://circleci.com/gh/cblanc/enceladus)
+[![codecov](https://codecov.io/gh/cblanc/enceladus/branch/master/graph/badge.svg)](https://codecov.io/gh/cblanc/enceladus)
 
 # enceladus
 
