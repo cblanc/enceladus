@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/cblanc/enceladus.svg?style=svg)](https://circleci.com/gh/cblanc/enceladus)
+![CI](https://github.com/cblanc/enceladus/workflows/CI/badge.svg)
 [![codecov](https://codecov.io/gh/cblanc/enceladus/branch/master/graph/badge.svg)](https://codecov.io/gh/cblanc/enceladus)
 
 # enceladus
