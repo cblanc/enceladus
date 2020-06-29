@@ -12,12 +12,12 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "npm run lint && NODE_ENV=test nyc mocha",
+    "test": "NODE_ENV=test nyc mocha",
     "lint": "eslint lib/**/*.ts",
-    "build": "npm run lint && tsc",
+    "build": "tsc",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
-    "release": "semantic-release --no-ci",
-    "prepublishOnly": "npm test && npm run build",
+    "semantic-release": "semantic-release",
+    "prepublishOnly": "npm run build",
     "watch": "mocha --watch-extensions ts --watch"
   },
   "prettier": {
