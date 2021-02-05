@@ -78,7 +78,7 @@
     "@types/chai": "~4.2.0",
     "@types/mocha": "~8.2.0",
     "@typescript-eslint/eslint-plugin": "~3.10.1",
-    "chai": "~4.2.0",
+    "chai": "~4.3.0",
     "codecov": "~3.8.0",
     "eslint": "~7.19.0",
     "mocha": "~8.2.0",
